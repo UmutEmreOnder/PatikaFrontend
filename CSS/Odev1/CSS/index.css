@@ -1,0 +1,28 @@
+body {
+    background-color: aliceblue;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    color:red;
+    font-size: 45px;
+}
+
+h2 {
+    color: #58123c;
+}
+
+h3 {
+    color: #877a34;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
