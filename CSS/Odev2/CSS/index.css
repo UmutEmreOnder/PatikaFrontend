@@ -1,0 +1,44 @@
+body{
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.search{
+    background-color: #EEEEEE;
+}
+
+.box{
+    float: left;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    height: 120px;
+}
+
+.footer{
+    font-size: small;
+}
+
+#box1{
+    width: 37%;
+    background-color: #7EE5DA;
+}
+
+#box2{
+    background-color: #70CCC2;
+    width: 22.2%;
+}
+
+#box3{
+    background-color: #62B3AA;
+    width: 35%;
+    margin-right: 0;
+}
