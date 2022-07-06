@@ -1,4 +1,6 @@
 function showTime() {
+    getName()
+
     const time = document.getElementById("myClock");
 
     let day = new Date().getDay()
@@ -28,4 +30,9 @@ function showTime() {
 
 
     time.innerHTML = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }) + " " + day;
+}
+
+function getName() {
+    let nameSection = document.getElementById("myName")
+    nameSection.innerHTML = prompt("Adınızı Girin");
 }
